@@ -47,7 +47,7 @@ public class AliCheckAction extends Action {
 		} catch (Exception e) {
 			throw new SystemException(ErrorCode.系统错误, e);
 		}
-		log.info("arrlist:" + arrlist);
+		log.info("arrlist:" );
 		// ==========================================================================
 		String data = MapUtil.string(params, Variable.DATA).replaceAll("`", "");
 
